@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "poll-app-django"
+version = "0.1.0"
+description = "learn django by create a poll app"
+authors = ["Phuong Tan Thanh"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^5.0.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
